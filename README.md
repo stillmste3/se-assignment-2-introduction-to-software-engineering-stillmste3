@@ -58,16 +58,52 @@ Modularity in software design is a technique where complex software is divided i
 Describe the different levels of software testing (unit testing, integration testing, system testing, acceptance testing). Why is testing crucial in software development?
 Version Control Systems:
 
+~ Unit tetsing checks if software components are fulfilling functionalities or not by testing each part of the software by separating it into small testable portions. This kind of testing is performed by developers.
+~ Integration testing checks the data flow from one module to other modules by combining them as a group. This kind of testing is performed by testers.
+~ System testing evaluates both functional and non-functional needs for the testing. It allows checking system’s compliance as per the requirements such as load, perfomance, reliability and security. System testing most often the final test to verify that the system meets the specification.
+~ Acceptance testing checks if the requirements of a specification are met.
+Testing is important because it evaluates the system's/application's compliance with the specified needs/requirements.
+
 What are version control systems, and why are they important in software development? Give examples of popular version control systems and their features.
 Software Project Management:
+
+Version control systems are software that help track changes made in code over time. As a developer edits code, the version control system takes a snapshot of the files, then saves that snapshot permanently so it can be recalled later if needed.
+Popular version control systems are git, SVN(Subverion) and Mercurial.
+~Features of Git:
+- It is based on a distributed architecture which means that each member has a complete local copy of the database. Which allows for offline work and provides backup options.
+- It is fast and effecient.
+- And it has the ability to create branches and easily merge changes between them. Which allows developers to work on separate bug fixes without interfering with each other's work.
+~ Features of SVN:
+- It follows a centralized model where there is a single central repository.
+- It enforces atomic commits, meaning that a commit is only accepted if all changes within it are valid. This ensures that the repository remains in a consistent state.
+- And it  has a simpler learning curve compared to Git, making it more accessible to beginners.
+~ Features of Mercurial:
+- It is easy to learn.
+- It provides several built-in extensions that enhance its functionalities, including code review, bug tracking integration, and more.
+- It works seamlessly across different operating systems, allowing teams with diverse setups to collaborate effectively.
 
 Discuss the role of a software project manager. What are some key responsibilities and challenges faced in managing software projects?
 Software Maintenance:
 
+A software project manager is the most important person inside a team who takes the overall responsibilities to manage the software projects and plays an important role in the successful completion of the projects and has to face many challenges to accomplish this. The job responsibilities of a project manager range from activites like building up team morale to coming with customer presentations. Most of the managers take responsibility for writing the project proposal, project staffing, risk management, etc. 
+A commomn challenge in software managing projects is unclear expectations. This happens when the manager might fail to gather requirements clearly from the clients, which may further complicate the progress of the project. Another challenge is when the needs of the client may change and impact the project because more time, cost and resouces will need to allocated.
+
 Define software maintenance and explain the different types of maintenance activities. Why is maintenance an essential part of the software lifecycle?
 Ethical Considerations in Software Engineering:
 
+Software maintenance is an integral part of the software life cycle that involves modifying and updating software after it has been deployed. The goal of maintenance is to correct faults, improve performance or other attributes, and adapt the software to a changing environment throughout its lifetime. It is essential because it ensures that software remains reliable and secure by fixing bugs, applying security updates, etc.
+Software maintenance activities include optimization, error corrrection, deletion of discarded features and enhancing them. The error correction type deals with defects, deleting and enhancing features adapts software to changing environments to avoid future errors/issues. These activities mak sure the software remains secure and reliable.
+
 What are some ethical issues that software engineers might face? How can software engineers ensure they adhere to ethical standards in their work?
+
+Ethical issues faced by software engineers include:
+- Algorithmic bias
+- Personal data collection and privacy
+- Weak security protection
+- Negative relationship between feature and impact and
+- Open source collaboration
+Software engineers can adhere to ethical standards in their work by familiarizing themselves with the ethical codes and guidelines, be transparent about software limitations, potential risks, etc, and avoid losing the user's trust. They could also practice protecting user data and privacy and always stay informed about ethical challenges and developments in the field of software engineering, and to continuously learn to stay up to date with technology/software trends.
+
 Submission Guidelines:
 Your answers should be well-structured, concise, and to the point.
 Provide real-world examples or case studies wherever possible.
